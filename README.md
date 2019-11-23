@@ -1,2 +1,2 @@
-# EMaynard802.github.io
-Basic-Portfolio
+# Basic-Portfolio
+Basic Portfolio
