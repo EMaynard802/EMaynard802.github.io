@@ -1,78 +1,96 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Portfolio</title>
-<link href="Assets/CSS/style.css" rel="stylesheet" type="text/css" />    
+<!doctype html>
+<html lang="en-us">
 
-<style>
- .box {
-    width: align-self: auto;
-    height: 900px;
-    background-image: url('beige-tiles.png');
-   
-             }
-</style>
-<div>
-        <ul id="ul-nb">
-                <li><a href="contact.html">Contact |</a></li>
-                <li><a href="portfolio.html">Portfolio |</a></li>
-                <li><a href="index.html">About |</a></li>
-                    </ul> 
-    </div>
-<div class="header">
-            <div class="image"></div><div class="text">Eleanor M.</div>
-        </div>
-    <div class="box">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio | Eleanor Maynard</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+ <style>
+  .btn-primary {
+    background-color: #4aaaa5;
+    border-color: #5bc2c2
+    }
+  </style>
 
 </head>
 
-<body>  
-
-<div id="wrapper">
-    <h2>Portfolio</h2>
-    <br>
-    <hr width: 300px>
-    <br>    
-         
-<div class="container">   
-    <div class="col left">
-            <div class="card">
-                    <img src="Assets/Images/pixabay-325782__340_hangman.jpg" width="200" height="100" alt="Hangman Photo" style="width:80%;">
-                    <p><button>Hangman</button></p>
-                  </div>
-    
-            <div class="card">
-            <img src="Assets/Images/thumbnail_large-1_rpg.jpg" width="200" height="100" alt="RPG Photo" style="width:80%;">
-            <p><button>RPG Game</button></p>
+<body style=height:max-content>
+        <header id="masthead">
+                <div class="container">
+                  <a href="index.html" id="logo">Eleanor Maynard</a>
+                  <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                  </nav>
+                </div>
+              </header>
+   <div class="container-fluid ml-5">
+   <div class="row top-buffer ml-4" style=position:absolute> 
+        <div class="col-md-9 mt-5 ml-5 py-4" style=background:white><h3 style=font-weight:bolder>Portfolio</h3></div>
+        <div class="row" style=width:93%>           
+        <div class="col-sm-5 ml-5 mt-0">
+          <div class="card h-100" style=min-width:30% style=max-width:100% >
+            <div class="card-body">
+              <img src="Assets/Images/pixabay-325782__340_hangman.jpg" style=width:100% height=90%>
+              <a href="#" class="btn btn-primary" style=width:100%>Hangman</a>
             </div>
+          </div>
+        </div>
+        <div class="col-sm-5 mt-0">
+          <div class="card h-100 style=min-width:30% style=max-width:100%">
+            <div class="card-body">
+              <img src="Assets/Images/monument-1041687__340_trivia.jpg" style=width:100% height=90%>
+              <a href="#" class="btn btn-primary" style=width:100%>Trivia</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style=width:93%>           
+        <div class="col-sm-5 ml-5 mt-3">
+          <div class="card h-100" style=min-width:30% style=max-width:100% >
+            <div class="card-body">
+              <img src="Assets/Images/soccer-3339036__340_rutgers.jpg" style=width:100% height=90%>
+              <a href="#" class="btn btn-primary" style=width:100%>Rutgers Info Widget</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 mt-3">
+          <div class="card h-100" style=min-width:30% style=max-width:100% >
+            <div class="card-body">
+              <img src="Assets/Images/concentric-3438463__340_rock.jpg" style=width:100% height=90%>
+              <a href="#" class="btn btn-primary" style=width:100%>Rock, Paper, Scissors</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style=width:93%>           
+        <div class="col-sm-5 ml-5 mt-3">
+          <div class="card h-100" style=min-width:30% style=max-width:100% >
+            <div class="card-body">
+              <img src="Assets/Images/thumbnail_large-1_rpg.jpg" style=width:100% height=90%>
+              <a href="#" class="btn btn-primary" style=width:100%>RPG Game</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-5 mt-3">  
+        </div>
+        <div class="clear"></div>
+            
+        <div class="container"> 
+              <footer>
+                  Copyright &copy;
+                </div>
+              </footer>         
+            </div>
+            </div>
+        
+      </body>  
+   
 
-            <div class="card">
-                    <img src="Assets/Images/monument-1041687__340_trivia.jpg" width="200" height="100" alt="Trivia Photo" style="width:80%;">
-                    <p><button>Trivia Game</button></p>
-                    </div>
-                
-</div>
-    <div class="col right">
-            <div class="card">
-                    <img src="Assets/Images/soccer-3339036__340_rutgers.jpg" width="200" height="100" alt="Rutgers Photo" style="width:80%">
-                    <p><button>Rutgers Info Widget</button></p>
-                  </div>
-            <div class="card">
-                    <img src="Assets/Images/concentric-3438463__340_rock.jpg" width="200" height="100" alt="Rock Photo" style="width:80%;">
-                    <p><button>Rock, Paper, Scissors</button></p>
-                    </div>
-             
-</div>
-    <div class="clear"></div>
-</div>
-</div>
-</div> 
-</div>
-</div>
-</div>
-<hr id="hrfooter" weight: 300px>
-<footer>
-    <p class="copyright">© Copyright</p>
-</footer>
-</body>
+
 </html>
