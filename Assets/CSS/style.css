@@ -29,9 +29,20 @@ body {
   input[type=submit]:hover {
     background: #5e7f7e;
   }
+
+  .navbar-fixed-top {height: 150px;}
+  .navbar-brand img {height: 150px;}
+
+  nav .navbar-nav li{
+    color:#777777 !important;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+  
   
   nav a:hover {
-    color: #5e7f7e;
+    color: #5e7f7e !important;
   }
   
   .social:hover {
@@ -237,6 +248,7 @@ body {
 }  
 
 .container-fluid {
+  background-attachment: fixed;
   display: grid;  
     grid-template-columns: 1fr 1fr;  
     grid-template-rows: 50px 50px;  
@@ -270,27 +282,27 @@ body {
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  body, .top-buffer, .container, .row, h3 {
+  body, .top-buffer, .container, .row, h3, .navbar-nav {
     }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) {
-  body, .top-buffer, .container, .row, h3 {
+  body, .top-buffer, .container, .row, h3, .navbar-nav {
     } 
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) {
-  body, .top-buffer, .container, .row, h3 {
+  body, .top-buffer, .container, .row, h3, .navbar-nav {
     } 
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) {
-  body, .top-buffer, .container, .row, h3 {
+  body, .top-buffer, .container, .row, h3, .navbar-nav {
     } 
 
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575px) {
-  body, .top-buffer, .container, .row, h3 {
+  body, .top-buffer, .container, .row, h3, .navbar-nav {
     margin-top: 50px;
     } 
 
