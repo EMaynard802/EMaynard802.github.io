@@ -4,44 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Basic Portfolio</title>
+    <title>Password-Generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="Assets/CSS/style.css" rel="stylesheet" type="text/css"/>  
-  
-  <body>
-      <header id="masthead">
-          <div class="container">
-            <a href="#" id="logo">Eleanor Maynard</a>
-            <nav>
-              <a href="index.html" style=font-size:24px>About</a>
-              <a href="portfolio.html" style=font-size:24px>Portfolio</a>
-              <a href="contact.html" style=font-size:24px>Contact</a>
-            </nav>
-          </div>
-        </header>
-      <div id="main-container" class="container">
-        <section class="main-section">
-          <h1>About Me</h1>
-    
-          <img src="Assets/Images/Optimized-Version.jpg" class="auth-image" alt="Eleanor Maynard">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700|Spectral+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Prosto+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
 
-          <p style=font-weight:700><strong><em>It's Nice to Meet You!</em></strong></p></p>
+<body>
+    <header class="header">
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+                    <span class="navbar-text" style=color:darkred>
+                    <img class="brand" alt="Brand" src="password.png"> Weak passwords can pose a real security threat. Password Generator will generate strong passwords quickly and effortlessly to save employees time and ensure secure access to data.
+                    </span>
+                  </nav>
+        <h1>Password Generator</h1>
     
-          <p>I am a Full-Stack Developer student currently enrolled in UCONN's Coding Bootcamp. Although I have a successful career as an ERP Systems Manager, I am looking for a new challenge. <strong>I love to solve problems.</strong> Whether it's finding the most elegant way to write a line of code, or hiking a Class 5 route, I enjoy pushing limits and discovering solutions.</p>
-    
-          <p>As a Web Development student, I continually find opportunities to prove my creativity, flexibility, and detailed-eye. </p>
-    
-          <p>Please check out my portfolio and contact me to discuss your next project. I will work hard to ensure your website meets all of your goals and objectives, as well as go above and beyond without needing to be told to. <strong><i>“Good enough” is not in my vocabulary!</i></strong>
-        </section>
-    
-      </div>
-    
-      <footer>
-        <div class="container">
-          Copyright &copy; 
+    </header>
+
+    <div class="container main-cont top-box">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-text">
+                    <h2>Generate a Password</h2>
+                </div>
+    <textarea readonly id="password" placeholder="Your password length must be between 8 and 128 characters. However, you will be prompted to choose whether your password includes special characters, uppercase letters, lowercase letters, numbers, or all characters. Click the 'Generate Password' button below and select from the options provided to generate your password." aria-label="Generated Password"></textarea>
+
+    <button onclick="generate()" class="btn-left">Generate Password</button>
+
+    <button id="copy" onclick="myFunction()" class="btn-right">Copy to clipboard</button>
+            </div>
         </div>
-      </footer>
-    </body>
-    
-    </html>
-    
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
