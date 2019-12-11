@@ -29,3 +29,5 @@ Random password based on user-selected criteria.
 Once all prompts are answered, the user will be presented with a password matching the answered prompts. Displaying the generated password in an alert is acceptable, but attempt to write the password to the page instead.<br>
 
 Also, the user should also have the option to click a button to copy the password to their clipboard. </p>
+
+[Password-Generator] (https://emaynard802.github.io/)
