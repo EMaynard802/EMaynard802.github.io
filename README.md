@@ -1,4 +1,3 @@
-# Code-Quiz
 <h1>Quiz Your Coding & Basic Programming Knowlegde!</h1>
 <hr>
 
@@ -17,12 +16,6 @@
 <li>Enter your initials and click on the "Save Score" button to save your score to the High Scores.</li>
 <li>To view your score in the High Scores section simply click the "View High Scores" button.</li>
 
-
-
-
-
-
-
-
 </ul>
 
+[Take the Challenge!](https://EMaynard802.github.io)
