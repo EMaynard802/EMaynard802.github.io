@@ -17,7 +17,12 @@
 <li>Enter your initials and click on the "Save Score" button to save your score to the High Scores.</li>
 <li>To view your score in the High Scores section simply click the "View High Scores" button.</li>
 
-</ul>
 
-[Demo the quiz!](https://EMaynard802.github.io)
+
+
+
+
+
+
+</ul>
 
